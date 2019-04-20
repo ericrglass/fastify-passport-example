@@ -1,0 +1,35 @@
+{
+    "name": "fastify-passport-example",
+    "version": "1.0.0",
+    "description": "An example of using Fastify with Passport with the help of some plugins and middleware",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ericrglass/fastify-passport-example.git"
+    },
+    "author": "Eric Glass <ericrglass@gmail.com>",
+    "license": "MIT",
+    "keywords": [
+        "Fastify",
+        "Passport",
+        "web"
+    ],
+    "bugs": {
+        "url": "https://github.com/ericrglass/fastify-passport-example/issues"
+    },
+    "homepage": "https://github.com/ericrglass/fastify-passport-example#readme",
+    "dependencies": {
+        "express-response-time": "0.0.6",
+        "express-session": "^1.16.1",
+        "fastify": "^2.3.0",
+        "fastify-formbody": "^3.1.0",
+        "fastify-normalize-request-reply": "^2.1.0",
+        "nunjucks": "^3.2.0",
+        "passport": "^0.4.0",
+        "passport-local": "^1.0.0",
+        "point-of-view": "^3.2.0"
+    }
+}

@@ -1,0 +1,15 @@
+{% extends "layouts/default.njk" %}
+
+{% block body %}
+  <p>This is home</p>
+
+  {% if user %}
+    <p>Hello
+      {{ user.username }}, welcome home!
+      <a href="/logout">logout</a>
+    </p>
+  {% else %}
+    <p>Welcome Home! Please
+      <a href="/login">log in</a>.</p>
+  {% endif %}
+{% endblock %}
